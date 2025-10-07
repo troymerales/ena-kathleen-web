@@ -1,18 +1,19 @@
 {
-  "name": "ena",
+  "name": "ena-kathleen-portfolio",
   "version": "1.0.0",
-  "description": "A simple Vite web project",
-  "main": "script.js",
+  "description": "Professional portfolio website for Ena Kathleen M. Bosoboso",
+  "main": "index.html",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build required'",
+    "preview": "npx serve .",
+    "start": "npx serve ."
   },
-  "keywords": [],
+  "keywords": ["portfolio", "customer-support", "administrative", "accounting"],
   "author": "Ena Kathleen M. Bosoboso",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "vite": "^6.3.6"
+    "serve": "^14.2.1"
   },
   "engines": {
     "node": ">=18.0.0"
