@@ -5,17 +5,9 @@
   "main": "index.html",
   "scripts": {
     "dev": "npx serve .",
-    "build": "echo 'Static site - no build required'",
-    "preview": "npx serve .",
     "start": "npx serve ."
   },
   "keywords": ["portfolio", "customer-support", "administrative", "accounting"],
   "author": "Ena Kathleen M. Bosoboso",
-  "license": "MIT",
-  "devDependencies": {
-    "serve": "^14.2.1"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  }
+  "license": "MIT"
 }
